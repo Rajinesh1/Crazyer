@@ -1,0 +1,155 @@
+.nav{
+    position: sticky;
+    background: #ffff;
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        white 120px,
+        transparent 150px
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        white 110px,
+        transparent 151px
+    );
+    width: 100%;
+    top: 0;
+    transition: transform 0.6s ease;
+    z-index: 1;
+}
+.hide{
+    transform: translateY(-100%);
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    height: 138px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: -40px;
+
+}
+
+.search-bar .location{
+    display: flex;
+    align-items: center;
+    gap: 2.2vw;
+    margin-left: -1vw;
+    opacity: 0.78;
+}
+.location span{
+    font-size: 1.35vw;
+    color: rgb(65, 64, 64);
+}
+
+.navbar .search-bar{
+    display: flex;
+    width: 53%;
+    padding: 6px 0px;
+    margin: auto;
+    margin-left: 150px;
+    border: 1.7px solid black;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.3vw;
+}
+
+.search-button{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.search-button:active{
+    transform: scale(1.05);
+}
+.navbar .divider{
+    width: 2px;
+    height: 1.8vw;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.input-text .input-search{
+    display: flex;
+    width: 20vw;
+    border: none;
+    outline: none;
+    margin-left: -50px;
+    font-size: 1.13vw;
+}
+.navbar-right{
+    width: 12%;
+    display: flex;
+    gap: 90px;
+    cursor: pointer;
+    align-items: center;
+}
+.navbar-basket-icon{
+    position: relative;
+    margin-left: -60px;
+}
+.navbar-basket-icon:active{
+    transform: scale(1.1);
+}
+.navbar-basket-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 50%;
+    top: -8px;
+    right: -8px;
+    background-color: tomato;
+}
+.navbar-right button{
+    padding: 0.599vw 3.3vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right,purple,tomato);
+}
+
+.navbar-right button:active{
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+@keyframes borderAnimation {
+    0%{
+        border-color: white;
+    }
+    25%{
+        border-color: red;
+    }
+    50%{
+        border-color: purple;
+    }
+    75%{
+        border-color: tomato;
+    }
+    100%{
+        border-color: black;
+    }
+}
+
+@keyframes flow{
+    0%{
+        background-position: 0% 0%;
+
+    }
+    100%{
+        background-position: 300% 0%;
+    }
+}
+
+@media (max-width:750px) {
+    .nav{
+        flex-direction: column-reverse;
+    }
+    .navbar{
+        justify-content: start;
+    }
+}

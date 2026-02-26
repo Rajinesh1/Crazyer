@@ -1,0 +1,58 @@
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background: url("background2_img.png");
+  background-repeat: no-repeat;
+  background-position-y: -5vw;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.explore-menu h1{
+  display: flex;
+  justify-content: center;
+}
+.food-display h2{
+  display: flex;
+  justify-content: center;
+}
+.App{
+  margin: auto;
+}
+@keyframes fadeIn {
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slidesFade{
+  0%{
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  50%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+@keyframes shineFade{
+  0%{
+    background-position: -200% center;
+  }
+  100%{
+    background-position: 200% center;
+  }
+}

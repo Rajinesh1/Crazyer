@@ -1,0 +1,18 @@
+
+.food-display h2{
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-bottom: 7vw;
+    padding-top: 4vw;
+}
+
+.food-display-list{
+    display: grid;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(240px,2fr));
+    margin-top: 30px;
+    padding: auto;
+    gap: 30px;
+}
