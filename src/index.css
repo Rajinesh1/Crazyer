@@ -6,7 +6,7 @@ body{
   padding: 0;
   margin: 0;
   height: 100vh;
-  background: url("background_img.jpg");
+  background: url("/background_img.jpg");
   background-repeat: no-repeat;
 }
 a{
