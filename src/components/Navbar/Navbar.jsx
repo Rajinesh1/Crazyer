@@ -5,7 +5,7 @@ import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 import { StoreContext } from "../context/StoreContext";
 const Navbar = ({setShowLogin}) => {
-    const[location,setLocation] = useState("Anakapalli");
+    const[location,setLocation] = useState("Vizag");
     const detectLocation = () =>{
         if(navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
