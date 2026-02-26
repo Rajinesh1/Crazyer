@@ -3,7 +3,7 @@ import logo from './logo.png'
 import header_img from './header_img.png'
 import header2_img from './header2_img.png'
 import search_icon from './search_icon.png'
-import background2_img from './background2_img.png'
+import background_img from './background2_img.png'
 import location from './location.svg'
 import caret_down from './caret-down.png'
 import menu_0 from './menu_0.png'
@@ -69,7 +69,7 @@ export const assets = {
     logo,
     location,
     basket_icon,
-    background2_img,
+    background_img,
     caret_down,
     header_img,
     header2_img,
