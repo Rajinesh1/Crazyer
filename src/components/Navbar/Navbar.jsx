@@ -1,10 +1,39 @@
-import React, { useContext } from "react";
+import React, { useState, useContext } from "react";
+import {FaCaretDown} from "react-icons/fa"
 import './Navbar.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 import { StoreContext } from "../context/StoreContext";
 const Navbar = ({setShowLogin}) => {
 
+     const[location,setLocation] = useState("Anakapalli");
+    const detectLocation = () =>{
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                async(position) => {
+                    const { latitude, longitude } = position.coords;
+                    const response = await fetch(
+                         `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`
+                    );
+                    const data = await response.json();
+
+                    const city = 
+                    data.address.city ||
+                    data.address.town ||
+                    data.address.village ||
+                    "Current Location"
+                    setLocation(city);
+                },
+                (error) => {
+                    alert("Location access denied!")
+                }
+            );
+        }else {
+            alert("geolocation not supported.")
+        }
+
+    };
+    
     const {getTotalCartAmount} = useContext(StoreContext)
     let lastScrollTop = 0;
     const navbar= document.getElementById("navbar")
@@ -40,10 +69,9 @@ const Navbar = ({setShowLogin}) => {
         <Link to='/'><img src={assets.logo} alt="" className="logo"/></Link>
         <div className="search-bar">
             <div className="location">
-                <img src={assets.location} alt="location"/>
-            <span>Anakapalli</span>
-            <i className="fa-caret-down">
-            </i>
+                <img src={assets.location} alt=""/>
+            <span className="location-text">{location}
+            <FaCaretDown className="caret" onClick={detectLocation}/></span>
             </div>
         <div className="divider">
         </div>
