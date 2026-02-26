@@ -1,12 +1,11 @@
 import React, { useState, useContext } from "react";
-import {FaCaretDown} from "react-icons/fa"
+import { FaCaretDown } from "react-icons/fa"
 import './Navbar.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 import { StoreContext } from "../context/StoreContext";
 const Navbar = ({setShowLogin}) => {
-
-     const[location,setLocation] = useState("Anakapalli");
+    const[location,setLocation] = useState("Anakapalli");
     const detectLocation = () =>{
         if(navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
@@ -33,7 +32,6 @@ const Navbar = ({setShowLogin}) => {
         }
 
     };
-    
     const {getTotalCartAmount} = useContext(StoreContext)
     let lastScrollTop = 0;
     const navbar= document.getElementById("navbar")
@@ -71,7 +69,8 @@ const Navbar = ({setShowLogin}) => {
             <div className="location">
                 <img src={assets.location} alt=""/>
             <span className="location-text">{location}
-            <FaCaretDown className="caret" onClick={detectLocation}/></span>
+            <FaCaretDown className="caret" onClick={detectLocation}/>
+            </span>
             </div>
         <div className="divider">
         </div>
