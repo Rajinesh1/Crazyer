@@ -90,6 +90,7 @@
   background: #ffff;
   width: 450px;
   max-height: 250px;
+    scrollbar-width: "none";
   top: 200%;
   overflow-y: hidden;
   left: 0;
