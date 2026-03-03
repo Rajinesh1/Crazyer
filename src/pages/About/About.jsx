@@ -32,7 +32,7 @@ const About = () => {
                            <h2>{item.name}</h2>
                            <p>{item.description}</p>
                            <div className='about-food-cart'>
-                           <h3>${item.price}</h3>
+                           <h3>₹{item.price}</h3>
                            <button  onClick={() => addToCart(item._id)}>Add to cart</button>
                            </div>
                            </div>
