@@ -1,0 +1,58 @@
+.about{
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.about-food{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.about-cancel{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-food-text h2{
+    font-weight: 100;
+}
+.about-food-text p{
+    color:grey;
+    font-style: italic;
+    width: 90%;
+}
+.about-cancel-icon{
+    font-size: 23px;
+    cursor: pointer;
+}
+.about-food-desc{
+    display: flex;
+    gap: 50px;
+    padding: 30px 20px;
+}
+.about-food-desc img{
+    width: 20%;
+    border-radius: 20px;
+}
+.about-food-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-food-cart button{
+    padding: 15px 25px;
+    border: none;
+    background: linear-gradient(to right,rgb(123, 123, 123),black 90%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.restaurant{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}

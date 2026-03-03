@@ -134,7 +134,8 @@ export const food_list = [
         image: food_1,
         price: 12,
         rating:4.1,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "Greek salad is a salad in Greek cuisine generally made with pieces of tomatoes, cucumbers, onion, feta cheese, and olives and dressed with salt, Greek oregano, lemon juice and olive oil.",
         category: "Salad"
     },
     {
@@ -143,7 +144,8 @@ export const food_list = [
         image: food_2,
         price: 18,
         rating:4.3,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "A vegetable salad is a versatile, nutritious dish consisting of a mixture of small, raw, or lightly cooked vegetables, often enhanced with leafy greens, herbs, and a dressing.",
         category: "Salad"
     }, {
         _id: "3",
@@ -151,7 +153,8 @@ export const food_list = [
         image: food_3,
         price: 16,
         rating: 4.5,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "Clover salad, refers to a refreshing, often foraged, dish that utilizes the leaves, flowers, and stems of the white or red clover plant (Trifolium), which are high in nutrients.",
         category: "Salad"
     }, {
         _id: "4",
@@ -159,7 +162,8 @@ export const food_list = [
         image: food_4,
         price: 24,
         rating: 4.1,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "Chicken salad is a versatile, cold dish primarily composed of chopped or shredded cooked chicken combined with a binder—typically mayonnaise—and various mix-ins for texture and flavor",
         category: "Salad"
     }, {
         _id: "5",
@@ -167,7 +171,8 @@ export const food_list = [
         image: food_5,
         price: 14,
         rating: 3.8,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "Lasagna rolls are a convenient, single-serving twist on traditional lasagna, featuring cooked lasagna noodles spread with fillings like ricotta, mozzarella, parmesan, and herbs.",
         category: "Rolls"
     }, {
         _id: "6",
@@ -175,7 +180,8 @@ export const food_list = [
         image: food_6,
         price: 12,
         rating: 4.7,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "Peri Peri rolls are a popular, zesty, and fiery snack or meal that features marinated, spicy chicken or paneer, inspired by Portuguese-African flavors. They are characterized by their bold, tangy, and smoky taste.",
         category: "Rolls"
     }, {
         _id: "7",
@@ -183,7 +189,8 @@ export const food_list = [
         image: food_7,
         price: 20,
         rating: 4.9,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "Chicken Kathi Roll Street Style | Kolkata Style Chicken Roll ...Chicken rolls are a popular, savory, and convenient street-style dish featuring spiced, stir-fried, or roasted chicken (often marinated in yoghurt.",
         category: "Rolls"
     }, {
         _id: "8",
@@ -191,7 +198,8 @@ export const food_list = [
         image: food_8,
         price: 15,
         rating: 4.2,
-        description: "Food provides essential nutrients for overall health and well-being",
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
+        description: "A veg roll is a popular, versatile Indian street food snack consisting of a variety of spiced, stir-fried vegetables or a veggie-based mix wrapped tightly in a flatbread (such as roti, paratha, or naan).",
         category: "Rolls"
     }, {
         _id: "9",
@@ -199,6 +207,7 @@ export const food_list = [
         image: food_9,
         price: 14,
         rating: 4.3,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     }, {
@@ -207,6 +216,7 @@ export const food_list = [
         image: food_10,
         price: 22,
         rating: 4.1,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     }, {
@@ -215,6 +225,7 @@ export const food_list = [
         image: food_11,
         price: 10,
         rating: 4.0,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     }, {
@@ -223,6 +234,7 @@ export const food_list = [
         image: food_12,
         price: 12,
         rating: 4.4,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     },
@@ -232,6 +244,7 @@ export const food_list = [
         image: food_13,
         price: 12,
         rating: 3.2,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Sandwich"
     },
@@ -241,6 +254,7 @@ export const food_list = [
         image: food_14,
         price: 18,
         rating: 4.4,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Sandwich"
     }, {
@@ -249,6 +263,7 @@ export const food_list = [
         image: food_15,
         price: 16,
         rating: 4.0,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Sandwich"
     }, {
@@ -257,6 +272,7 @@ export const food_list = [
         image: food_16,
         price: 24,
         rating: 3.9,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Sandwich"
     }, {
@@ -265,6 +281,7 @@ export const food_list = [
         image: food_17,
         price: 14,
         rating: 3.8,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
@@ -273,6 +290,7 @@ export const food_list = [
         image: food_18,
         price: 12,
         rating: 4.1,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
@@ -281,6 +299,7 @@ export const food_list = [
         image: food_19,
         price: 20,
         rating: 4.3,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
@@ -289,6 +308,7 @@ export const food_list = [
         image: food_20,
         price: 15,
         rating: 4.2,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
@@ -297,6 +317,7 @@ export const food_list = [
         image: food_21,
         price: 14,
         rating: 3.8,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     }, {
@@ -305,6 +326,7 @@ export const food_list = [
         image: food_22,
         price: 22,
         rating: 3.9,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     }, {
@@ -313,6 +335,7 @@ export const food_list = [
         image: food_23,
         price: 10,
         rating: 4.3,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     }, {
@@ -321,6 +344,7 @@ export const food_list = [
         image: food_24,
         price: 12,
         rating: 4.5,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     },
@@ -330,6 +354,7 @@ export const food_list = [
         image: food_25,
         price: 12,
         rating: 4.7,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pasta"
     },
@@ -339,6 +364,7 @@ export const food_list = [
         image: food_26,
         price: 18,
         rating: 3.7,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pasta"
     }, {
@@ -347,6 +373,7 @@ export const food_list = [
         image: food_27,
         price: 16,
         rating: 4.7,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pasta"
     }, {
@@ -355,6 +382,7 @@ export const food_list = [
         image: food_28,
         price: 24,
         rating: 4.5,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pasta"
     }, {
@@ -363,6 +391,7 @@ export const food_list = [
         image: food_29,
         price: 14,
         rating: 4.7,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
     }, {
@@ -371,6 +400,7 @@ export const food_list = [
         image: food_30,
         price: 12,
         rating: 4.0,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
     }, {
@@ -379,6 +409,7 @@ export const food_list = [
         image: food_31,
         price: 20,
         rating: 4.4,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
     }, {
@@ -387,6 +418,7 @@ export const food_list = [
         image: food_32,
         price: 15,
         rating: 4.6,
+        address: "Plot 21, High Court Road, Near Madina Circle, Ghansi Bazaar, Hyderabad",
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
     }

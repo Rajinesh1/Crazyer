@@ -5,10 +5,9 @@
 }
 .explore-menu-content{
     display: flex;
+    margin-top: 200px;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 50px;
-
 }
 .explore-menu h1{
     font-size: 3vw;

@@ -24,7 +24,11 @@ const PlaceOrder = () => {
                 <input type='text' placeholder='Country'/>
                 </div>
                 <input type='text' placeholder='Phone'/>
+                <div className='address-button'>
+              <button>Save Address</button>
             </div>
+            </div>
+            
             <div className='place-order-right'>
             <div className="cart2-totals">
       <div className="cart2-details">

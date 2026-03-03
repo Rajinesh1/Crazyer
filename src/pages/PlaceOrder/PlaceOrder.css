@@ -52,3 +52,8 @@
 .place-order .cart2-totals button{
     margin-top: 50px;
 }
+
+.address-button button{
+    padding: 8px 35px;
+
+}

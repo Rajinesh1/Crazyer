@@ -1,7 +1,7 @@
 .login-popup{
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     height: 100%;
     width: 100%;
     background: #00000090;

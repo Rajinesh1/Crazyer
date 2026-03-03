@@ -1,10 +1,14 @@
-import React,{useContext} from "react";
+import React,{useContext,useEffect} from "react";
 import './Cart.css'
 import { StoreContext} from '../../components/context/StoreContext'
 import { Link, Navigate } from "react-router-dom";
+import { FaTimes } from "react-icons/fa";
 
 const Cart = () => {
   const {cartItems,food_list,removeFromCart, getTotalCartAmount} = useContext(StoreContext);
+  useEffect(() => {
+        window.scrollTo(0,0)
+     },[])
   return(
     <div className="cart">
       <div className="cart-items">
@@ -30,7 +34,7 @@ const Cart = () => {
             <p>${item.price}</p>
             <p>{cartItems[item._id]}</p>
             <p>${item.price*cartItems[item._id]}</p>
-            <p onClick={() =>removeFromCart(item._id)} className="cross">x</p>
+            <FaTimes onClick={() =>removeFromCart(item._id)} className="cross"/>
             </div>
             <hr/>
             </div>

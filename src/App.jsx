@@ -8,6 +8,8 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
+import About from './pages/About/About'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 const App = () => {
 
   const[showLogin,setShowLogin] = useState(false)
@@ -20,6 +22,7 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/order' element={<PlaceOrder/>} />
+        <Route path='/about' element={<About/>}/>
       </Routes>
     </div>
     <Footer/>
