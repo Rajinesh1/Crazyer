@@ -127,7 +127,7 @@ const detectLocation = () => {
                   }}>
                   <img src={item.image}/>
                     <h3>{item.name}</h3>
-                    <p>${item.price}</p>
+                    <p>₹{item.price}</p>
                   </p>
                 ))}
               </div>
