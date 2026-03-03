@@ -31,9 +31,9 @@ const Cart = () => {
             <div className="cart-items-title cart-items-item">
             <img src={item.image} alt=""/>
             <p>{item.name}</p>
-            <p>${item.price}</p>
+            <p>₹{item.price}</p>
             <p>{cartItems[item._id]}</p>
-            <p>${item.price*cartItems[item._id]}</p>
+            <p>₹{item.price*cartItems[item._id]}</p>
             <FaTimes onClick={() =>removeFromCart(item._id)} className="cross"/>
             </div>
             <hr/>
@@ -48,17 +48,17 @@ const Cart = () => {
       <div className="cart2-details">
       <div className="cart2-total-details">
       <p>Subtotal</p>
-      <p>${getTotalCartAmount()}</p>
+      <p>₹{getTotalCartAmount()}</p>
       </div>
       <hr/>
         <div className="cart2-total-details">
         <p>Delivery Fee</p>
-        <p>${1}</p>
+        <p>₹{1}</p>
         </div>
         <hr/>
           <div className="cart2-total-details">
           <b>Total</b>
-          <b>${getTotalCartAmount() +1}</b>
+          <b>₹{getTotalCartAmount() +1}</b>
         </div>
       </div>
       <Link to='/order' ><button>PROCEED TO CHECKOUT</button></Link>
