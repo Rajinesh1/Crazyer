@@ -150,7 +150,7 @@ const detectLocation = () => {
         </span>
         )}
         </div>
-        <button onClick={() => setShowLogin(true)}>sign in</button>
+        <button onClick={() => setShowLogin(true)}>Login</button>
         </div>
         </div>
         </div>
